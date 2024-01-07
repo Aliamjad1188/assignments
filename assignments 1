@@ -1,0 +1,91 @@
+# Data Science Assignment - Batch -2
+
+## Instructions
+ + **Submission Deadline:**  [ insert Deadline] 
+ + **Total:** _100_
+  ## Asssignment Overview
+
+  In this assignment, you will demonstrate your understading of key concepts in data science and apply theme to real-world scenario.
+       
+ #### **Task 1: Exploratory Data Analysis** (30 marks)
+
+ #### Dataset Description
+
+ Download the  dataset  provided  for this assignment. The dataset contains information about [describe the dataset].
+
+### Questions :
+
+ 1. Load the dataset into a pandas DataFrame.
+ 2. Preform basic explotary data analysis,
+     inclueding summary statistics and data visualization.
+ 3. Identify any missing values and propose 
+     a strategy to handle theme.
+4. Create at least  two meaningfull visualizations 
+     to represent the insights gained from the data.
+
+### Task 2: Dataset Preprocessing (20)
+
+#### Data Cleaning 
+  1. Handle missing values based on the strategy proposed in task 1.
+  2. Check for and handel any outliters in dataq set.
+  3. 
+   #### feature engineering
+   1. Create a new feature [describe the new feature].
+  4. Normalize  or standerise relivent feature.
+$$  X normalized = {X-min(X)\over max(X)-min(X)}  $$
+ Discuss the importance of normalization in the cotext of machine learning.
+
+ 3. Create a new feature (Z) that represents the intraction between two existing feature(X) and (Y) using the formulae:
+
+$$ Z={X\over Y}$$
+provide a breif explation of why you choose the features:
+
+ # Task 3: Machine learning (30marks)
+
+### Model building
+
+ 1. Split the dataset in the training and testing set .
+2. Choose a suitable mchine learning algrothim and train model.
+3. Evaluate the model's perfomance using appropriate matrics.
+
+### Hyperparameter tuining
+1. Experiment with hyperparameter tuining to improve the model's perfomance .
+2. Discuss the impct of the  different hyperparameters on the model.
+
+# **Task 4: Conculision and Recommendations** (20marks)
+
+write a conculission based on your analysis and purpose any recomendations for future work.
+
+# **Task 5:Advanced Analysis**_(25marks)_
+
+### Question 4.1
+Apply a leinear regression model to predict a target variable (Y) based on relevents features (X_1,X2,Xn). Evaluate the  model's performance using the Mean Squared Error(MSE) formula:
+
+$$ MSE= {1 \over n}\sum_{i=1}^n(Y_i-Y_i)^2 $$
+
+### Question 5.2
+
+Discuss the strengths limitation of the linear regression model.purpose potential improvements.
+
+## Mathemetics Formula's
+   + ### ***Summation (sigma):*** $\sum_{i=1}^{n}X_i$
+   + ### ***Theta  (&theta;):*** _&theta;_
+   + ### ***pi(&pi;):*** _&pi;_
+   + ### ***Logarithm(log):*** _log(x)_
+
+# Submission guidelines
+  1. Submit your assignement as a markdown file.
+  2. Inclued any necessary code snippets in  the markdown.
+  3. Clearly label each section with appropriate headings.
+  4. Ensure your markdown file is well-formatted for readability.
+
+   # Evaluate criteria: 
+   Your assignment will be evaluated based on :
+   
+   + ### **Completeness :**  Did you adress all the tasks?
+   + ### **Analyze:**    How well did you analyze and interpret the data?  
+   + ### **Clearity:**  Is your markdown well-structured and easy to follow ?
+   + ### **Creativity:** Did you aproach the tasks with creativity and critical thinking ?
+   + ### **Technical Proficeincy:** How well did you implement data science techniques ?
+  
+  ## Good luck!
